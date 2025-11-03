@@ -1,0 +1,140 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\priya\\OneDrive\\Desktop\\New folder\\Playwright-Tut\\playwright.config.ts",
+    "rootDir": "C:/Users/priya/OneDrive/Desktop/New folder/Playwright-Tut/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "my-Report",
+          "open": "on-failure"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "my-report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/priya/OneDrive/Desktop/New folder/Playwright-Tut/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/priya/OneDrive/Desktop/New folder/Playwright-Tut/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.54.2",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "rahulShettyUdemy\\webApi.ts",
+      "file": "rahulShettyUdemy/webApi.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "client app login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2340,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OTAxZWQyM2Y2NjlkNmNiMGEzM2M4OWQiLCJ1c2VyRW1haWwiOiJwcml5YW5rYWQyMzA1OTZAZ21haWwuY29tIiwidXNlck1vYmlsZSI6OTU3OTc5NjYwNywidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc2MjE3OTExOSwiZXhwIjoxNzkzNzM2NzE5fQ.BLwUm9lvMZGQbPXAkUq9xmJSOXUrtyIUJlVTdSEFSTE\n"
+                    },
+                    {
+                      "text": "[ \u001b[32m'ZARA COAT 3'\u001b[39m, \u001b[32m'ADIDAS ORIGINAL'\u001b[39m, \u001b[32m'iphone 13 pro'\u001b[39m ]\n"
+                    },
+                    {
+                      "text": "\u001b[33m3\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-03T14:11:59.233Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\priya\\OneDrive\\Desktop\\New folder\\Playwright-Tut\\test-results\\rahulShettyUdemy-webApi.ts-client-app-login-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\priya\\OneDrive\\Desktop\\New folder\\Playwright-Tut\\test-results\\rahulShettyUdemy-webApi.ts-client-app-login-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c47e007bd6dcced56cb9-faba73b9d8b28b80d164",
+          "file": "rahulShettyUdemy/webApi.ts",
+          "line": 20,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-11-03T14:11:58.386Z",
+    "duration": 4301.236,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

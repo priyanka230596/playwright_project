@@ -31,7 +31,7 @@ test('locators',async({page})=>{
 })
 test('facebook login page',async({page})=>{
     await page.goto('https://www.facebook.com/')
-    await page.waitForTimeout(2000)
+    // await page.waitForTimeout(2000)
      
     await page.reload()
 
