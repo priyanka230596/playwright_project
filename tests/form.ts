@@ -1,7 +1,8 @@
-import test from '@playwright/test'
+import test, { expect } from '@playwright/test'
 test("demoqa practice form", async ({ page }) => {
   await page.goto(`https://demoqa.com/automation-practice-form`);
-//   await page.waitForTimeout(2000);
+  await  page.locator('.text-center').waitFor({timeout:4000})
+
   await page.locator('input[placeholder="First Name"]').fill("Priyanka");
   await page.locator('input[placeholder="Last Name"]').fill("Shil");
   await page.locator("#userEmail").fill("priyankaShil@gmail.com");
@@ -31,7 +32,19 @@ test("demoqa practice form", async ({ page }) => {
 // file upload
 await page.setInputFiles('input[id="uploadPicture"]',["C:/Users/priya/OneDrive/Pictures/birds.jpg"])
 // date select
-   await page.locator('#dateOfBirthInput').fill('23 may 1996')
+  //  await page.locator('#dateOfBirthInput').fill('23 may 1996')
+  const date:any='23'
+  const month='5'
+  const year='2027'
+   const expectedDate='23 may 2027'
+  await page.locator('#dateOfBirthInput').click()
+  await page.locator('.react-datepicker__year-select').selectOption({value:'2027'})
+  await page.locator('.react-datepicker__month-select').selectOption({value:'4'})
+  
+  await page.locator('.react-datepicker__day ').nth(Number(date-1)).click()
+  const birthdate=await page.locator('#dateOfBirthInput').inputValue()
+  await expect(birthdate).toEqual(expectedDate)
+
 
 
 
