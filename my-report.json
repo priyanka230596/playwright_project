@@ -65,13 +65,13 @@
   },
   "suites": [
     {
-      "title": "rahulShettyUdemy\\webApi.ts",
-      "file": "rahulShettyUdemy/webApi.ts",
+      "title": "rahulShettyUdemy\\POM_Project\\ecomOfRahul.ts",
+      "file": "rahulShettyUdemy/POM_Project/ecomOfRahul.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "client app login",
+          "title": "POM ofADIDAS ORIGINAL",
           "ok": true,
           "tags": [],
           "tests": [
@@ -86,33 +86,42 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2340,
+                  "duration": 10313,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OTAxZWQyM2Y2NjlkNmNiMGEzM2M4OWQiLCJ1c2VyRW1haWwiOiJwcml5YW5rYWQyMzA1OTZAZ21haWwuY29tIiwidXNlck1vYmlsZSI6OTU3OTc5NjYwNywidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc2MjE3OTExOSwiZXhwIjoxNzkzNzM2NzE5fQ.BLwUm9lvMZGQbPXAkUq9xmJSOXUrtyIUJlVTdSEFSTE\n"
+                      "text": "\u001b[33m3\u001b[39m\n"
                     },
                     {
                       "text": "[ \u001b[32m'ZARA COAT 3'\u001b[39m, \u001b[32m'ADIDAS ORIGINAL'\u001b[39m, \u001b[32m'iphone 13 pro'\u001b[39m ]\n"
                     },
                     {
-                      "text": "\u001b[33m3\u001b[39m\n"
+                      "text": "ZARA COAT 3\n"
+                    },
+                    {
+                      "text": "ADIDAS ORIGINAL\n"
+                    },
+                    {
+                      "text": " | 691973e75008f6a90921ffa8 | \n"
+                    },
+                    {
+                      "text": "\u001b[33m7\u001b[39m\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-03T14:11:59.233Z",
+                  "startTime": "2025-11-16T06:48:58.716Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\priya\\OneDrive\\Desktop\\New folder\\Playwright-Tut\\test-results\\rahulShettyUdemy-webApi.ts-client-app-login-chromium\\video.webm"
+                      "path": "C:\\Users\\priya\\OneDrive\\Desktop\\New folder\\Playwright-Tut\\test-results\\rahulShettyUdemy-POM_Proje-981a9-ul.ts-POM-ofADIDAS-ORIGINAL-chromium\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\priya\\OneDrive\\Desktop\\New folder\\Playwright-Tut\\test-results\\rahulShettyUdemy-webApi.ts-client-app-login-chromium\\trace.zip"
+                      "path": "C:\\Users\\priya\\OneDrive\\Desktop\\New folder\\Playwright-Tut\\test-results\\rahulShettyUdemy-POM_Proje-981a9-ul.ts-POM-ofADIDAS-ORIGINAL-chromium\\trace.zip"
                     }
                   ]
                 }
@@ -120,19 +129,86 @@
               "status": "expected"
             }
           ],
-          "id": "c47e007bd6dcced56cb9-faba73b9d8b28b80d164",
-          "file": "rahulShettyUdemy/webApi.ts",
-          "line": 20,
-          "column": 5
+          "id": "942a742af28f94466508-b3c85a8aafeb57183212",
+          "file": "rahulShettyUdemy/POM_Project/ecomOfRahul.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "POM ofiphone 13 pro",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9979,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m3\u001b[39m\n"
+                    },
+                    {
+                      "text": "[ \u001b[32m'ZARA COAT 3'\u001b[39m, \u001b[32m'ADIDAS ORIGINAL'\u001b[39m, \u001b[32m'iphone 13 pro'\u001b[39m ]\n"
+                    },
+                    {
+                      "text": "ZARA COAT 3\n"
+                    },
+                    {
+                      "text": "ADIDAS ORIGINAL\n"
+                    },
+                    {
+                      "text": "iphone 13 pro\n"
+                    },
+                    {
+                      "text": " | 691973f15008f6a90921ffea | \n"
+                    },
+                    {
+                      "text": "\u001b[33m2\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-16T06:49:09.819Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\priya\\OneDrive\\Desktop\\New folder\\Playwright-Tut\\test-results\\rahulShettyUdemy-POM_Proje-fba11-ahul.ts-POM-ofiphone-13-pro-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\priya\\OneDrive\\Desktop\\New folder\\Playwright-Tut\\test-results\\rahulShettyUdemy-POM_Proje-fba11-ahul.ts-POM-ofiphone-13-pro-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "942a742af28f94466508-b479ecabf3015d2f8be6",
+          "file": "rahulShettyUdemy/POM_Project/ecomOfRahul.ts",
+          "line": 7,
+          "column": 7
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-03T14:11:58.386Z",
-    "duration": 4301.236,
-    "expected": 1,
+    "startTime": "2025-11-16T06:48:57.950Z",
+    "duration": 25281.261000000002,
+    "expected": 2,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
